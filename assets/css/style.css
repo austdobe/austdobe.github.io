@@ -152,6 +152,12 @@ body{
     text-align: center;
     z-index:2;
 }
+.skills{
+    width: 20%;
+    margin: 10px 20px;
+    display: inline-block;
+    text-align: center;
+}
 
 .portrait{
     height: auto;
