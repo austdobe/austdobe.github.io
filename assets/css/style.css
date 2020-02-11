@@ -6,8 +6,8 @@ body{
 }
 #banner{
     z-index: 99;
-    height:fit-content;
-    width: fit-content;
+    height: 40%;
+    width: 50%;
     margin: 200px auto 0 auto;
     padding: 20px 20px;
     border-radius: 10%;
