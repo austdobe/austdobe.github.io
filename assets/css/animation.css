@@ -21,7 +21,7 @@
     height: 25px;
     background: rgba(255,255,255, 0.2);
     animation: animate 30s linear infinite;
-    bottom: -50vh
+    bottom: -150px
 }
 .boxArea li:nth-child(1){
     left: 86%;
@@ -75,7 +75,7 @@
         opacity: 1;
     }
     100%{
-        transform: translateY(-800px) rotate(360deg);
+        transform: translateY(-1000px) rotate(360deg);
         opacity: 1
     }
 }
