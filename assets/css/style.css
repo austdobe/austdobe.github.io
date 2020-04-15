@@ -7,14 +7,22 @@ body{
 #banner{
     height: 40%;
     width: 50%;
-    margin: 200px auto 0 auto;
+    margin: 200px auto;
     padding: 20px 20px;
     border-radius: 10%;
     background-color: black;
-    z-index: 1;
+    z-index: 99;
 }
-    /* .hooverTextQQWAA */ */
-
+/* .hoverText{
+    display: none;
+    font-size: 10px;
+    color:white;
+    position: overlay; 
+    z-index: 100;
+}
+.hoverText:hover{
+    display: block;
+} */
 .name{
     display: inline;
     color: black;
@@ -82,6 +90,7 @@ body{
     margin-bottom: 50px;
 }
 
+
 textarea{
     width: 99%;
 }
@@ -94,7 +103,7 @@ textarea{
     margin-bottom: 20px;
 }
 .projects:hover{
-    box-shadow: black;
+    box-shadow: 5px 5px 20px 10px #404244;
 }
 
 .row{
