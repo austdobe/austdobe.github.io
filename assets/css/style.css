@@ -4,10 +4,13 @@ html{
 body{
     background-color: rgb(32, 46, 41);
 }
+#landing{
+    height: 100vh;
+}
 #banner{
     height: fit-content;
     width: 50%;
-    margin: 200px auto;
+    margin: 30vh auto;
     padding: 20px 30px;
     border-radius: 10%;
     background-color: black;
@@ -118,6 +121,11 @@ h3{
     margin-top: 20px;
 }
 
+@media screen and (max-width: 600px){
+    #banner{
+        margin: 10vh auto;
+    }
+}
 
 
 
