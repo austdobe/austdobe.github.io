@@ -5,10 +5,10 @@ body{
     background-color: rgb(32, 46, 41);
 }
 #banner{
-    height: 40%;
+    height: fit-content;
     width: 50%;
     margin: 200px auto;
-    padding: 20px 20px;
+    padding: 20px 30px;
     border-radius: 10%;
     background-color: black;
     z-index: 99;
