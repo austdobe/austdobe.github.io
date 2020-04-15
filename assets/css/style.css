@@ -13,14 +13,14 @@ body{
     background-color: black;
     z-index: 99;
 }
-/* .hoverText{
+.hoverText{
     display: none;
     font-size: 10px;
     color:white;
     position: overlay; 
     z-index: 100;
 }
-.hoverText:hover{
+/* .hoverText:hover{
     display: block;
 } */
 .name{
