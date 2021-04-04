@@ -9,8 +9,9 @@
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Austin Dober</title>
-    <!-- Custom Css -->
+    <!-- Floating Blocks CSS -->
     <link rel="stylesheet" href="assets/css/animation.css">
+    <!-- Custom style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,9 +23,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 </head>
-<body>
-    <section id="landing">
-        <div style="height: 100vh">
+<body class="animationArea">
+    <section id="landing" >
+        <div>
             <ul class="boxArea">
                 <li></li>
                 <li></li>
@@ -39,276 +40,27 @@
                 <h4 class="text-center titleSub">Full Stack Developer</h4>
                 <div class="text-center" style="margin-top: 30px;">
                     <div class="row ">
-                        <a class="fab fa-linkedin col-sm-12 col-md-5 col-lg-3" style="font-size: 3em; color:black; background-color: rgb(207, 209, 211); padding: 8px; border-radius: 25%; margin: 10px auto;" href="https://www.linkedin.com/in/austin-dober/" target="_blank">
-                            <span class="hoverText">View Linked-In Profile</span> 
+                        <a href="https://www.linkedin.com/in/austin-dober/" target="_blank" class='name col-sm-12 col-md-5 col-lg-3'>
+                            <div class="fab fa-linkedin  text-center link" > 
+                            </div>
+                            <div class="hoverText">View Linked-In</div>
                         </a>
-                        <a class="fab fa-github col-sm-12 col-md-5 col-lg-3" style="font-size: 3em; color: black;background-color: rgb(207, 209, 211); padding: 8px; border-radius: 25%; margin: 10px auto;" href="https://github.com/austdobe" target="_blank">
-                            <span class="hoverText">View GitHub Profile</span> 
+                        <a href="https://github.com/austdobe" target="_blank" class='name col-sm-12 col-md-5 col-lg-3'>
+                            <div class="fab fa-github text-center link" >
+                            </div>
+                            <div class="hoverText">View GitHub</div> 
                         </a>
-                        <a class="fas fa-file col-sm-12 col-md-5 col-lg-3" style="font-size: 3em; color: black; background-color: rgb(207, 209, 211); padding: 8px; border-radius: 25%; margin: 10px auto;" href="https://docs.google.com/document/d/1n_60pQs3nFdsJmotv2jkayciDRXPZOb7VkNSKgVxTcE/edit?usp=sharing" target="_blank">
-                            <span class="hoverText">View Resume</span>
+                        <a href="https://docs.google.com/document/d/1n_60pQs3nFdsJmotv2jkayciDRXPZOb7VkNSKgVxTcE/edit?usp=sharing" target="_blank" class="name col-sm-12 col-md-5 col-lg-3">
+                            <div class="fas fa-file text-center link" >
+                            </div>
+                            <div class="hoverText">View Resume</div>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="me" class="container">
-        <div class="projectHead">
-            <h2>About me</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <img src="assets/images/Headshot.jpg" class=" portrait mx-auto rounded img-thumbnail img-fliud">
-            </div>
-            <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12 intro">
-                <p>I am a full stack react engineer with a background in healthcare. I have always had a passion for technology since I was a child. I grew up with a mind for engineering. When I would receive a new console or gaming system, I would always try to take it apart to figure out how it worked. Overall, I would typically break the system but my curiosity never went away. As I grew, I learned more about how to put it all back together. I would perform regular maintenance on my consoles, computers and even vehicles just to learn more about how everything worked. I always had this passion in the back of my mind even as I pushed through my education in healthcare. As I began my career in healthcare, my interest in technology never went away. I began by rebuilding an old broken computer tower. This computer became my project computer. I had spent hours self-teaching myself how to use C++. As time went on, I found less time to work on coding. A few years later, I found the coding boot camp through University of North Carolina at Chapel Hill. At this point of my life, I knew this is what I wanted to do. Six months later, my suspicion was confirmed as I pushed through the boot camp and rekindled my love of building applications from the ground up.
-                </p>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 float-right">
-                <!-- <h4>Past Experience</h4> -->
-                <p>I have spent the last 5 years in healthcare. I have enjoyed my experiences and the knowledge I have gained from this. However, I am ready to move into a new adventure. Prior to my healthcare time, I worked at the International Business Machines (IBM). I spent 3 years working in computer chip fabrication, also called the Fab. I learned many different machines. My love for technology grew during this time. While I was working at IBM, I was continuing my education for healthcare. I spent my day in class and worked 12 hour night shifts.</p>
-            </div>
-        </div>
-        <div class="projectHead">
-            <h2>Skills</h2>
-        </div>
-        <div class="card skills">
-            <h4>HTML</h4>
-        </div>
-        <div class="card skills">
-            <h4>CSS</h4>
-        </div>
-        <div class="card skills">
-            <h4>Javascript</h4>
-        </div>
-        <div class="card skills">
-            <h4>Node.js</h4>
-        </div>
-        <div class="card skills">
-            <h4>Bootstrap</h4>
-        </div>
-        <div class="card skills">
-            <h4>JQuery</h4>
-        </div>
-        <div class="card skills">
-            <h4>mySql</h4>
-        </div>
-        <div class="card skills">
-            <h4>Ajax</h4>
-        </div>
-        <div class="card skills">
-            <h4>MongoDB</h4>
-        </div>
-        <div class="card skills">
-            <h4>Mongoose</h4>
-        </div>
-        <div class="card skills">
-            <h4>React</h4>
-        </div>
-    </section>
-    <section id="projects" class = "container">
-        <h2 class="projectHead">My Projects</h2>
-        <div class="row">
-            <!-- Word Search -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Word Search Game</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="assets/images/hangmanlogo.png">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using HTML, CSS and Javascript. This is an application that randomly selects a word from a word bank and displays underlines for each letter. You must guess by stroking a key. If you are incorrect then you lose a turn. If you are right, the letter is filled out appropriately.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://austdobe.github.io/Word-Guess-game/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/Word-Guess-game" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Crystal Collector Game -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Crystal Collector</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="assets/images/Crystalcollecterlogo.jpg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using HTML, CSS and Javascript. This is an application that randomly selects a number value for each image and a winning value. You must select the proper images to add to your score. If your score is higher than the value, you lose.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://austdobe.github.io/crystalCollecter/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/crystalCollecter" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Star Wars RPG Game -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Star Wars RPG Game</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/starwarsRPG.jpg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using HTML, CSS and Javascript. In this game you choose your character, once selected you will choose your enemy. once your enemy is chosen you can attack or power up. The attack will attack your enemy and you will be attacked at the same time. If you power up, your attack and defense will increase. Use with caution, your enemy will still attack during a power up. The goal of this game is to beat all of your enemies without dying.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://austdobe.github.io/RPG-Game/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/RPG-Game" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- WebScraper application -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Web Scrapper Application</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/WebScraper.PNG">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using Handlebars, CSS, Javascript and Mongo/Mongoose. This application will scrape articles from New York Times, and save it in the server. You may scrape the articles, read the articles, save the ones you like or delete all articles.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://super-webscraper.herokuapp.com/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/Super-Webscraper" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Liri Assistant App -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Liri Assistant</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/liriLogo.jpg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application using backend technologies. It is using Javascript and a console. This is used with Node.js and API calls to gather Information asked.
-                    </p>
-                </div>
-                <div class="card-footer row w-100">
-                    <!-- <a class="btn btn-primary col-md-5 disabled" style="margin:0px auto;" href="" target="_blank">Deployed Project</a> -->
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/LIRI-Node-App" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Harry Potter Trivia Game -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Harry Potter Trivia</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/trivialogo.jpg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using HTML, CSS and Javascript. It will give you a series of questions based on Harry Potter Trivia. You select an answer within the time provided and it will give you instant results.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://austdobe.github.io/TriviaGame/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/TriviaGame" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Clicky Game -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Clicky Memory Game</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/MemoryGame.PNG">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using React, CSS, Bootstrap CSS and JSX. This is an application that randomly selects a position of the pictures. The goal is to click one image twice. Each time you click an image the state of the patient is reordered randomly.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://austdobe.github.io/Clicky-Game/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/Clicky-Game" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Friend Finder
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Friend Finder</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/friendlogo.png">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using HTML, CSS and Javascript. This is an application that randomly selects a word from a word bank and displays underlines for each letter. You must guess by stroking a key. If you are incorrect then you lose a turn. If you are right, the letter is filled out appropriately.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://secret-eyrie-47782.herokuapp.com/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="" target="_blank">GitHub Repo</a>
-                </div>
-            </div>-->
-            <!-- Gif Generator -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Gif Generator</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/gifLogo.jpeg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using HTML, CSS and Javascript. This is an application pull Gifs based on your search. It will automatically pull the current trending Gifs. Once you search for what you would like a quick button appears. Click on the button and it will pull the Gif related to your search.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://austdobe.github.io/Gif_Generator/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/Gif_Generator" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Bamazon -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Bamazon</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" class="d-inline w-100" src="./assets/images/Bamazonlogo.jpg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using backend technologies. This is using Node.js, your console and mySql. This will keep track of the items you have listed in your server. It allows you to purchase items and updates your server.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <!-- <a class="btn btn-primary col-md-5 disabled" style="margin:0px auto;" href="" target="_blank">Deployed Project</a> -->
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/Bamazon-Node-Mysql" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Build a Burger -->
-            <!-- <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Build-A-Burger</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/Burgerlogo.jpg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using HTML, CSS and Javascript. This is an application that randomly selects a word from a word bank and displays underlines for each letter. You must guess by stroking a key. If you are incorrect then you lose a turn. If you are right, the letter is filled out appropriately.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/Das_Burger" target="_blank">GitHub Repo</a>
-                </div>
-            </div> -->
-            <!-- Wags with Friends -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Wags With Friends</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="./assets/images/wagsWithFriends.jpg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using Handlebars, JQuery, mySql and Sass. This application will allow you to create a profile with your pets information and your location. Once this is updated you will find local profiles to set up play dates for your pets. You can message and see how far they are from you.</p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://project2-10-2019.herokuapp.com/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/Wags-With-Friends" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Train Schedule -->
-            <div class="card projects" style="background-color: darkgray;">
-                <h4 class="card-title text-center">Train Schedule</h4>
-                <div class="card-body row">
-                    <img class="col-sm-1 col-md-5 projectImage" style="margin:0px auto; border-radius: 10%;" src="assets/images/Trainlogo.jpg">
-                    <p class="col-sm-1 col-md-5"style="margin:0px auto;">This is an application build using HTML, CSS, Javascript and firebase. This is an application that allows you to add a train to the schedule. Once you add the required fields it will be sent to the server and will be listed on the schedule. It uses moment.js to calculate the time and will show the next time the train will be at the station based on the information you provided. </p>
-                </div>
-                <div class="card-footer row w-100">
-                    <a class="btn btn-primary col-md-5" style="margin:0px auto;" href="https://austdobe.github.io/Train_Station/" target="_blank">Deployed Project</a>
-                    <a class="btn btn-secondary col-md-5" style="margin:0px auto;" href="https://github.com/austdobe/Train_Station" target="_blank">GitHub Repo</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="container">
-        <div class="projectHead">
-            <h2>Contact Information</h2>
-            <div>
-                <a style="color: black;">Email: austin.dober@gmail.com</a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/austin-dober/" target="_blank" style="color: black;">Linked-In: https://www.linkedin.com/in/austin-dober/</a>
-            </div>
-            <div>
-                <a href="https://github.com/austdobe" target="_blank" style="color: black;">GitHub Profile: https://github.com/austdobe</a>
-            </div>
-        </div>
-        <form action="mailto:austin.dober@gmail.com" method="post" enctype="text/plain">
-            <fieldset>
-                First Name: <br>
-                <input type="text" name="firstName"><br>
-                Last Name: <br>
-                <input type="text" name="lastName"><br>
-                Email:<br>
-                <input type="email" name="email"><br>
-                Message: <br>
-                <textarea id="messageBox" name="message"
-                    rows = "5"
-                    col = "200"></textarea><br>
-                <button class="btn-md btn-success" type="submit">Submit</button>
-                <button class="btn-md btn-danger" type="reset">Reset</button>
-                
-                </textarea>
-            </fieldset>
-        </form>
-    </section>
-    <footer class="card-footer" style="background-color: rgb(165, 165, 165); height: 50px;" >
-        <span class="float-left">
-            <h6 >Austin Dober</h6>
-        </span>
-        <span class="float-left">
-            <h6 style="margin-left: 10px;">Full Stack Developer</h6>
-        </span>
-    </footer>
+    </section>          
+    
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <!-- popper -->

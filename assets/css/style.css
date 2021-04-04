@@ -7,62 +7,15 @@ body{
     width:100%;
     margin: 0 auto;
 }
-#landing{
-    height: 100vh;
-}
+
 .projectImage{
     max-height: 200px;
     max-width: 400px;
 }
-#banner{
-    height: fit-content;
-    width: 50%;
-    margin: 30vh auto;
-    padding: 20px 30px;
-    border-radius: 10%;
-    background-color: black;
-    opacity: 75%;
-    z-index: 99;
-}
-.hoverText{
-    display: none;
-    font-size: 10px;
-    color:white;
-    position: overlay; 
-    z-index: 100;
-}
-/* .hoverText:hover{
-    display: block;
-} */
-.name{
-    display: inline;
-    color: black;
-    text-decoration: none;
-}
-.name:hover{
-    text-decoration: none;
 
-}
-.titleName{
-    color: white;
-
-}
-.titleSub{
-    margin-top: 25px;
-    color: white;
-}
-/* .navbar{
-    z-index: 99;
-    position:sticky;
-    top:0;
-    width: 100%;
-    z-index:0;
-    background-color: rgb(80, 195, 128, .8);
-} */
 .card-img-top{
     margin: 0 auto;
-    /* height:150px;
-    width:200px; */
+
 }
 .card{
     padding:20px;
