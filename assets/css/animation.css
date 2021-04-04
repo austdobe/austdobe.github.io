@@ -132,3 +132,11 @@
         opacity: 1
     }
 }
+@media screen and (max-width: 600px){
+    #banner{
+        margin: 10vh auto;
+        width:90%;
+        
+    }
+    
+}
