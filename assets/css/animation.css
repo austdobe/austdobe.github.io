@@ -3,9 +3,12 @@
     height: 100vh;
     overflow-x:hidden;
     overflow-y: hidden;
+    background-color: rgb(32, 46, 41);
+    margin: 0 auto;
+    text-decoration: none;
 }
 #banner{
-    height: fit-content;
+    max-height:fit-content;
     width: 50%;
     margin: 30vh auto;
     padding: 20px 30px;
@@ -31,6 +34,7 @@
     background-color: antiquewhite;
     text-decoration: none;
 }
+
 .name{
     font-size: 3em;
     max-height: min-content;
@@ -45,8 +49,10 @@
     color: white;
     text-decoration: none;
 }
-.titleName:hover{
+#banner:hover .titleName{
     text-decoration: none;
+    color:whitesmoke
+    
 }
 .titleSub{
     margin-top: 25px;
@@ -74,14 +80,15 @@
     width: 25px;
     height: 25px;
     background: rgba(255,255,255, 0.2);
-    animation: animate 30s linear infinite;
+    animation: animate 20s linear infinite;
+    animation-direction: alternate-reverse;
     bottom: -150px
 }
 .boxArea li:nth-child(1){
     left: 86%;
     width: 80px; 
     height: 80px;
-    animation-delay: 0s
+    animation-delay: -2s
 }
 .boxArea li:nth-child(2){
     left: 12%;
@@ -108,7 +115,7 @@
     left: 65%;
     width: 40px; 
     height: 40px;
-    animation-delay: 0s;
+    animation-delay: -1s;
 }
 .boxArea li:nth-child(6){
     left: 15%;
@@ -120,7 +127,7 @@
     left: 76%;
     width: 75px; 
     height: 75px;
-    animation-delay: 1.2s;
+    animation-delay: 0s;
     animation-duration: 9s
 }
 @keyframes animate{
