@@ -11,6 +11,7 @@ body{
 .projectImage{
     max-height: 200px;
     max-width: 400px;
+    padding-bottom:10px;
 }
 
 .card-img-top{
@@ -19,8 +20,7 @@ body{
 }
 .card{
     padding:20px;
-    margin: 10px auto;
-    max-width:46%;   
+    margin: 10px auto;   
     background-color:rgb(106, 136, 122);
     height:auto;
 }
@@ -64,7 +64,7 @@ textarea{
     border-bottom: 2px solid black;
     margin-bottom: 10px;
 }
-.projects{
+#projects{
     margin-bottom: 20px;
 }
 .projects:hover{
