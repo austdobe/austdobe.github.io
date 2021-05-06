@@ -244,18 +244,18 @@
     50% { border-color: white; }
 } */
 
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
+    
     #banner{
-        margin: 10vh auto;
+        margin: 25vh auto;
         width:90%;
         
     }
     h2{
-        font-size: 20px;
+        font-size: 22px;
     }
     .name{
-        width: 25%
-
+        width:25%;
     }
     
 }
