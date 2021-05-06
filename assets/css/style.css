@@ -44,6 +44,11 @@ body{
     margin-bottom:20px;
     margin-top:20px;
     background-color:rgb(106, 136, 122);
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 }
 
 .container{
@@ -53,7 +58,18 @@ body{
     padding: 10px 20px;
     margin-bottom: 50px;
 }
-
+.writeInText{
+    font-family: "Arial";
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    color:black;
+    white-space:normal;
+    overflow: hidden;
+    width: 30em;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite
+}
 
 textarea{
     width: 99%;
@@ -81,6 +97,43 @@ h3{
 
 .intro{
     margin-top: 20px;
+}
+.navbar{
+    background-color:rgb(75, 136, 93)
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+    
+@media screen and (max-width: 600px){
+    .container{
+        margin: 10vh auto;
+        width:98%;
+        
+    }
+    
 }
 
 
