@@ -2,6 +2,7 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
 body{
     background-color: rgb(32, 46, 41);
     width:100%;
@@ -18,12 +19,14 @@ body{
     margin: 0 auto;
 
 }
+
 .card{
     padding:20px;
     margin: 10px auto;   
     background-color:rgb(106, 136, 122);
     height:auto;
 }
+
 .card-header{
     text-align: center;
     background-color: rgb(75, 136, 93);
@@ -58,6 +61,7 @@ body{
     padding: 10px 20px;
     margin-bottom: 50px;
 }
+
 .writeInText{
     font-family: "Arial";
     font-size: 20px;
@@ -74,15 +78,18 @@ body{
 textarea{
     width: 99%;
 }
+
 .projectHead{
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid black;
     margin-bottom: 10px;
 }
+
 #projects{
     margin-bottom: 20px;
 }
+
 .projects:hover{
     box-shadow: 5px 5px 20px 10px #404244;
 }
