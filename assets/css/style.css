@@ -86,8 +86,13 @@ textarea{
     margin-bottom: 10px;
 }
 
-#projects{
+.projects{
     margin-bottom: 20px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 }
 
 .projects:hover{
