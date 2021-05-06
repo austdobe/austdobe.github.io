@@ -42,29 +42,34 @@
     font-size: 3em;
     max-height: min-content;
     text-align:center;
-    color:black; 
+    color:black;
+    display: block; 
     background-color: rgb(207, 209, 211); 
     padding: 8px;    
     border-radius: 25%; 
     margin: auto;
-    animation-duration: 2s;
-    animation-iteration-count: once;
+    visibility: hidden;
     transform-origin: bottom;
-    animation-name: name;
+    animation: 
+        name 2s,
+        view 2s infinite;
     animation-timing-function: ease;
     animation-delay: 3.5s;
 }
 
 .titleName{
-    color: white;
+    color: whitesmoke;
     overflow: hidden;
+    display: block;
+    visibility: hidden;
     border-right: .15em solid transparent; 
     text-decoration: none;
     white-space: nowrap;
     margin: 0 auto;
     animation: 
         typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite
+        view 2s infinite;
+        /* blink-caret .75s step-end infinite */
 }
 
 #banner:hover .titleName{
@@ -76,14 +81,18 @@
 .titleSub{
     margin-top: 25px;
     overflow: hidden;
+    display: block;
     border-right: .15em solid transparent;
     white-space: nowrap;
+    visibility: hidden;
+    width:auto;
     margin: 0 auto; 
-    color: transparent;
+    color: whitesmoke;
     animation: 
         typing 3s steps(40, end),
-        blink-caret .75s step-end infinite;
-    animation-delay: 1s;
+        view 2s infinite;
+        /* blink-caret .75s step-end infinite; */
+    animation-delay: 1.3s;
 }
 
 .link{
@@ -169,13 +178,37 @@
 }
 
 @keyframes name {
-    0%   { transform: scale(1,1)    translateY(0); display:block}
-    10%  { transform: scale(1.1,.9) translateY(0); }
-    30%  { transform: scale(.9,1.1) translateY(-100px); }
-    50%  { transform: scale(1,1)    translateY(0); }
-    57%  { transform: scale(1,1)    translateY(-7px); }
-    64%  { transform: scale(1,1)    translateY(0); }
-    100% { transform: scale(1,1)    translateY(0); display:block;}
+    0%   { 
+        transform: scale(1,1)    translateY(0);
+         
+    }
+    10%  { 
+        transform: scale(1.1,.9) translateY(0); 
+    }
+    30%  { 
+        transform: scale(.9,1.1) translateY(-100px); 
+    }
+    50%  { 
+        transform: scale(1,1)    translateY(0); 
+    }
+    57%  { 
+        transform: scale(1,1)    translateY(-7px); 
+    }
+    64%  { 
+        transform: scale(1,1)    translateY(0); 
+    }
+    100% { 
+        transform: scale(1,1)    translateY(0);
+        
+    }
+}
+@keyframes view{
+    from{
+        visibility: hidden;
+    }
+    to{
+        visibility: visible;
+    }
 }
 
 @keyframes animate{
@@ -192,17 +225,21 @@
 @keyframes typing{ 
     from { 
         width: 0;
+        color:transparent;
+        display: block;
           
          } 
     to {
-        width:100%
+        width:100%;
+        color:whitesmoke;
+        display: block
     }
 }
 
-@keyframes blink-caret {
+/* @keyframes blink-caret {
     from, to { border-color: transparent; color: whitesmoke; }
-    50% { border-color: transparent; }
-}
+    50% { border-color: white; }
+} */
 
 @media screen and (max-width: 600px){
     #banner{
