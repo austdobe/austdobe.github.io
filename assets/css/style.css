@@ -44,8 +44,8 @@ body{
 .portrait{
     height: auto;
     max-width: 100%;
-    margin-bottom:20px;
-    margin-top:20px;
+    margin-bottom:auto;
+    margin-top:auto;
     background-color:rgb(106, 136, 122);
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
