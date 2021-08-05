@@ -56,6 +56,24 @@
     animation-timing-function: ease;
     animation-delay: 4.5s;
 }
+.delayedNav{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    visibility: hidden;
+    animation: 
+        view 3s infinite,
+        animate 10s linear;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+    animation-delay: 6s;
+}
+.delayedNav:hover{
+    font-size: 22px;
+
+}
 
 .titleName{
     color: whitesmoke;
@@ -93,11 +111,12 @@
         view 2s infinite;
         /* blink-caret .75s step-end infinite; */
     animation-delay: 1.3s;
+        
 }
 
 .link{
     color:black;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .boxArea{
