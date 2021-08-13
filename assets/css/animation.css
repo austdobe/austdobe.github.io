@@ -153,6 +153,7 @@
 }
 .boxArea li:hover{
     box-shadow: 5px 5px 5px 0 red;
+    animation-play-state: paused
 }
 
 .boxArea li:nth-child(1){
