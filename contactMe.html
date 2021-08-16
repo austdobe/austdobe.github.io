@@ -46,22 +46,33 @@
                 <a href="https://github.com/austdobe" target="_blank" style="color: black;">GitHub Profile: https://github.com/austdobe</a>
             </div>
         </div>
-        <form action="mailto:austin.dober@gmail.com" method="post" enctype="text/plain">
+        <form action="mailto:austin.dober@gmail.com" method="post" enctype="multipart/form-data" name="ContactForm">
             <fieldset>
-                First Name: <br>
-                <input type="text" name="firstName"><br>
-                Last Name: <br>
-                <input type="text" name="lastName"><br>
-                Email:<br>
-                <input type="email" name="email"><br>
-                Message: <br>
+                First Name: 
+                <br>
+                <input type="text" name="firstName">
+                <br>
+                    Last Name: 
+                <br>
+                <input type="text" name="lastName">
+                <br>
+                    Email:
+                <br>
+                <input type="email" name="email">
+                <br>
+                    Message: 
+                <br>
                 <textarea id="messageBox" name="message"
                     rows = "5"
-                    col = "200"></textarea><br>
-                <button class="btn-md btn-success" type="submit">Submit</button>
-                <button class="btn-md btn-danger" type="reset">Reset</button>
-                
+                    col = "200">
                 </textarea>
+                <br>
+                <button class="btn-md btn-success" type="submit">
+                    Submit
+                </button>
+                <button class="btn-md btn-danger" type="reset">
+                    Reset
+                </button>
             </fieldset>
         </form>
     </section>
