@@ -9,9 +9,9 @@ body{
     margin: 0 auto;
 }
 .active{
-    background-color:  rgb(32, 46, 41);
+    background-color:rgb(219, 231, 228);
     height: 100%;
-    color:rgb(219, 231, 228);
+    color:rgb(32, 46, 41)
 }
 .projectImage{
     max-height: 200px;
@@ -127,8 +127,20 @@ h3{
     margin-top: 20px;
 }
 .nav{
-    background-color:rgb(75, 136, 93)
+    background-color:rgb(75, 136, 93);
+    
 }
+a{
+    color: rgb(219, 231, 228);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(219, 231, 228);
+    text-decoration: none;
+    background-color:rgb(106, 136, 122);
+}
+
 
 @keyframes fadeIn {
 0% {opacity:0;}
