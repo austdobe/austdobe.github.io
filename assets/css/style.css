@@ -130,9 +130,14 @@ h3{
     background-color:rgb(75, 136, 93);
     
 }
+.nav-item{
+    padding: 10px 20px;
+}
+
 a{
     color: rgb(219, 231, 228);
     text-decoration: none;
+    padding: 10px 20px;
 }
 
 a:hover{
