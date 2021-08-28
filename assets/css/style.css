@@ -294,6 +294,9 @@ form{
     .navbar-nav{
         margin-left:0;
     }
+    .navbar-brand{
+        font-size: 20px;
+    }
     .nav-item{
         padding: 0;
         text-align: center;
@@ -302,33 +305,21 @@ form{
         border-right: none;
         border-bottom: 1px solid #404244;
     }
-    .contactMeRow{
-        margin: 0 auto;
-        text-align: center;
-    }
-    .contactMe{
-        margin: 10px auto;
-        text-align: center;
-        
-    }
     .myInfo{
         width: 100%;
-        margin: 0 auto;
-        text-align: left;
     }
     .socials{
-        text-align: center;
-        margin-left: auto;
-        margin-right:auto;
         font-size: 30px;
     }
     .contactItems{
         padding: 0;
-        text-align: center;
     }
     fieldset{
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    .footer{
+        font-size: 20px;
     }
 }
     
