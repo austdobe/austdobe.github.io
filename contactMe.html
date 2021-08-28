@@ -38,27 +38,25 @@
         </div>
     </nav>
     <section id='contact' class='contactContainer'>
-        <div class='row contactMeRow'>
+        <div class="row"> 
             <div class='col-lg-4 col-sm-12 contactMe'>
                 <h2>Contact Me</h2>
-                <div class='row'>
-                    <div class='myInfo'>
-                        <div class='contactItems'>
-                            <span class='fas fa-envelope'></span>
-                            <a href='mailto: austin.dober@gmail.com' id='myEmail'>austin.dober@gmail.com</a>
-                        </div>
-                        <div class='contactItems'>
-                            <span class='fas fa-mobile'></span>
-                            <a href='tele:9196990590' >919-699-0590</a>
-                        </div>
-                        <div class='contactItems'>
-                            <span class="fas fa-map-marker-alt"></span>
-                            <a href="#">Cary, North Carolina</a>
-                        </div>
-                        <div class='contactItems'>
-                            <span class='fas fa-file'></span>
-                            <a href='https://docs.google.com/document/d/1jPQbBM_eJrzqOg8FfZA1DlktTNSvOCtWgzghC0Dj7zY/edit?usp=sharing' target='_blank'>Check out my resume</a>
-                        </div>
+                <div class='row myInfo'>
+                    <div class='contactItems'>
+                        <span class='fas fa-envelope'></span>
+                        <a href='mailto: austin.dober@gmail.com' id='myEmail'>austin.dober@gmail.com</a>
+                    </div>
+                    <div class='contactItems'>
+                        <span class='fas fa-mobile'></span>
+                        <a href='tele:9196990590' >919-699-0590</a>
+                    </div>
+                    <div class='contactItems'>
+                        <span class="fas fa-map-marker-alt"></span>
+                        <a href="#">Cary, North Carolina</a>
+                    </div>
+                    <div class='contactItems'>
+                        <span class='fas fa-file'></span>
+                        <a href='https://docs.google.com/document/d/1jPQbBM_eJrzqOg8FfZA1DlktTNSvOCtWgzghC0Dj7zY/edit?usp=sharing' target='_blank'>Check out my resume</a>
                     </div>
                 </div>
                 <div class='row socials'>
@@ -74,9 +72,9 @@
                 </div>
             </div>
             <div class='col-lg-8 col-sm-12'>
+                <h2>Tell me about your project.</h2>
                 <form action='mailto:austin.dober@gmail.com' method='post' enctype='text/plain' name='ContactForm' class='row'>
                     <fieldset class='col-lg-6 col-sm-12 info'>
-                        <legend>Your Information</legend>
                         <label for='fname'>First name: <span class='required'>*</span></label>
                         <br>
                         <input type='text' name='fname' id='fname' placeholder='John' required>
@@ -101,7 +99,7 @@
                         <input type='radio' name='webDev'>   
                             <label for='webDev'>Website Development</label>
                         <br>
-                        <label for='message'>Tell me about your project:</label> 
+                        <label for='message'>Additional Notes: (optional)</label> 
                         <textarea id='messageBox' name='message'
                             rows = '5'
                             col = '200'>
@@ -117,13 +115,22 @@
             </div>
         </div>
     </section>
-    <footer class='card-footer' style='background-color: rgb(75, 136, 93); height: 50px;' >
+    <footer class='card-footer footer' style="background-color: rgb(75, 136, 93);">
         <span class='float-left'>
-            <h6 >Austin Dober</h6>
+            Austin Dober
         </span>
-        <span class='float-left'>
-            <h6 style='margin-left: 10px;'>Full Stack Developer</h6>
-        </span>
+        
+        <div class='float-right'>
+            <a href='https://www.linkedin.com/in/austin-dober/' target='_blank'>
+                <div class='fab fa-linkedin contactItems'></div>
+            </a>                
+            <a href='https://www.facebook.com/adoberweb' target='_blank'>
+                <div class='fab fa-facebook contactItems'></div>
+            </a>
+            <a href='https://github.com/austdobe' target='_blank'>
+                <div class='fab fa-github contactItems'></div>
+            </a>
+        </div>
     </footer>
     <!-- Jquery -->
     <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous'></script>
