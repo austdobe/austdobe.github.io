@@ -188,7 +188,7 @@ h3{
     border-right: 1px solid #404244;
 }
 .fas{
-    width: 15px;
+    width: 10px;
     text-align: center;
 }
 .socials{
@@ -285,7 +285,8 @@ form{
         width: 99%;
     }
     .contactContainer{
-        width: 100%;
+        width: 99%;
+        text-align: center;
     }
     
     
@@ -304,6 +305,15 @@ form{
     .contactMe{
         border-right: none;
         border-bottom: 1px solid #404244;
+    }
+    form{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .info{
+        width: 100%;
+        margin: 0 auto;
     }
     .myInfo{
         width: 100%;
@@ -325,7 +335,9 @@ form{
         margin: 10px auto;
         vertical-align: middle;
     }
-    
+    a{
+        padding: 0 5px;
+    }
     .portrait{
         min-width: 100%;
         margin-top: auto;
