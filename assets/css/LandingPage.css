@@ -25,6 +25,7 @@
 .hoverText{
     display: none;
     font-size: 15px;
+    text-decoration: none;
     color:black;
     position: relative;
     top:-30%; 

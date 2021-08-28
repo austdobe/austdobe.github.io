@@ -1,99 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <!-- css reset -->
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel='stylesheet' href='assets/css/reset.css'>
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
     <title>Contact Me</title>
     <!-- Custom style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <!-- Add icon library -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/eb72ad5a8c.js" ></script>
+    <script src='https://kit.fontawesome.com/eb72ad5a8c.js' ></script>
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png'>
+    <link rel='icon' type='image/png' sizes='32x32' href='/assets/images/favicon-32x32.png'>
+    <link rel='icon' type='image/png' sizes='16x16' href='/assets/images/favicon-16x16.png'>
+    <link rel='manifest' href='/site.webmanifest'>
 </head>
 <body>
-    <nav class="nav navbar sticky-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">Austin Dober</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class='nav navbar sticky-top navbar-expand-lg navbar-dark'>
+        <a class='navbar-brand' href='index.html'>AUSTIN DOBER</a>
+        <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation'>
+          <span class='navbar-toggler-icon'></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="aboutMe.html">WHO AM I</a>
-                <!-- <a class="nav-item nav-link" href="home.html">WHAT I DO</a> -->
-                <a class="nav-item nav-link" href="products.html">MY CREATIONS
-                <a class="nav-item nav-link active" href="contactMe.html">CONTACT ME</a>
-                <span class="sr-only">(current)</span></a>
+        <div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
+            <div class='navbar-nav'>
+                <a class='nav-item nav-link' href='aboutMe.html'>WHO AM I</a>
+                <!-- <a class='nav-item nav-link' href='home.html'>WHAT I DO</a> -->
+                <a class='nav-item nav-link' href='products.html'>MY CREATIONS
+                <a class='nav-item nav-link active' href='contactMe.html'>CONTACT ME</a>
+                <span class='sr-only'>(current)</span></a>
             </div>
         </div>
     </nav>
-    <section id="contact" class="container">
-        <div class="projectHead">
-            <h2>Contact Information</h2>
-            <div>
-                <a style="color: black;">Email: austin.dober@gmail.com</a>
+    <section id='contact' class='contactContainer'>
+        <div class='row contactMeRow'>
+            <div class='col-lg-4 col-sm-12 contactMe'>
+                <h2>Contact Me</h2>
+                <div class='row'>
+                    <div class='myInfo'>
+                        <div class='contactItems'>
+                            <span class='fas fa-envelope'></span>
+                            <a href='mailto: austin.dober@gmail.com' id='myEmail'>austin.dober@gmail.com</a>
+                        </div>
+                        <div class='contactItems'>
+                            <span class='fas fa-mobile'></span>
+                            <a href='tele:9196990590' >919-699-0590</a>
+                        </div>
+                        <div class='contactItems'>
+                            <span class="fas fa-map-marker-alt"></span>
+                            <a href="#">Cary, North Carolina</a>
+                        </div>
+                        <div class='contactItems'>
+                            <span class='fas fa-file'></span>
+                            <a href='https://docs.google.com/document/d/1jPQbBM_eJrzqOg8FfZA1DlktTNSvOCtWgzghC0Dj7zY/edit?usp=sharing' target='_blank'>Check out my resume</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='row socials'>
+                    <a href='https://www.linkedin.com/in/austin-dober/' target='_blank'>
+                        <div class='fab fa-linkedin contactItems'></div>
+                    </a>                
+                    <a href='https://www.facebook.com/adoberweb' target='_blank'>
+                        <div class='fab fa-facebook contactItems'></div>
+                    </a>
+                    <a href='https://github.com/austdobe' target='_blank'>
+                        <div class='fab fa-github contactItems'></div>
+                    </a>
+                </div>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/austin-dober/" target="_blank" style="color: black;">Linked-In: https://www.linkedin.com/in/austin-dober/</a>
-            </div>
-            <div>
-                <a href="https://github.com/austdobe" target="_blank" style="color: black;">GitHub Profile: https://github.com/austdobe</a>
+            <div class='col-lg-8 col-sm-12'>
+                <form action='mailto:austin.dober@gmail.com' method='post' enctype='text/plain' name='ContactForm' class='row'>
+                    <fieldset class='col-lg-6 col-sm-12 info'>
+                        <legend>Your Information</legend>
+                        <label for='fname'>First name: <span class='required'>*</span></label>
+                        <br>
+                        <input type='text' name='fname' id='fname' placeholder='John' required>
+                        <br>
+                        <label for='lname'>Last name: <span class='required'>*</span></label>
+                        <br> 
+                        <input type='text' name='lname' id='lname' placeholder='Smith' required>
+                        <br>
+                        <label for='email'>Email: <span class='required'>*</span></label>
+                        <br>
+                        <input type='email' name='email' id='email' placeholder='jsmith@email.com' required>
+                        <br>
+                        <label for='company'>Company: <span class='required'>*</span></label>
+                        <br> 
+                        <input type='text' name='company' id='company' placeholder='company' required>
+                    </fieldset>
+                    <fieldset class='col-lg-6 col-sm-12 service'>
+                        <legend>What service are you interested in?</legend>
+                        <input type='radio' name='webDesign' id='webDesign'>
+                            <label for='webDesign'>Web Design</label>  
+                            <br>
+                        <input type='radio' name='webDev'>   
+                            <label for='webDev'>Website Development</label>
+                        <br>
+                        <label for='message'>Tell me about your project:</label> 
+                        <textarea id='messageBox' name='message'
+                            rows = '5'
+                            col = '200'>
+                        </textarea>
+                    </fieldset>
+                    <button class='btn-md btn-success formButton' type='submit'>
+                        Submit
+                    </button>
+                    <button class='btn-md btn-secondary formButton' type='reset'>
+                        Reset
+                    </button>
+                </form>
             </div>
         </div>
-        <form action="mailto:austin.dober@gmail.com" method="post" enctype="multipart/form-data" name="ContactForm">
-            <fieldset>
-                First Name: 
-                <br>
-                <input type="text" name="firstName">
-                <br>
-                    Last Name: 
-                <br>
-                <input type="text" name="lastName">
-                <br>
-                    Email:
-                <br>
-                <input type="email" name="email">
-                <br>
-                    Message: 
-                <br>
-                <textarea id="messageBox" name="message"
-                    rows = "5"
-                    col = "200">
-                </textarea>
-                <br>
-                <button class="btn-md btn-success" type="submit">
-                    Submit
-                </button>
-                <button class="btn-md btn-danger" type="reset">
-                    Reset
-                </button>
-            </fieldset>
-        </form>
     </section>
-    <footer class="card-footer" style="background-color: rgb(75, 136, 93); height: 50px;" >
-        <span class="float-left">
+    <footer class='card-footer' style='background-color: rgb(75, 136, 93); height: 50px;' >
+        <span class='float-left'>
             <h6 >Austin Dober</h6>
         </span>
-        <span class="float-left">
-            <h6 style="margin-left: 10px;">Full Stack Developer</h6>
+        <span class='float-left'>
+            <h6 style='margin-left: 10px;'>Full Stack Developer</h6>
         </span>
     </footer>
     <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous'></script>
     <!-- popper -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous'></script>
     <!-- Bootstrap JS  -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin='anonymous'></script>
     <!-- Custom Javascript -->
-    <script type="text/javascript" src="assets/javascript/page.js"></script>
+    <script type='text/javascript' src='assets/javascript/page.js'></script>
    
     
 </body>
