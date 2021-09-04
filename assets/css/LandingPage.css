@@ -58,7 +58,7 @@
         name 1.5s,
         view 2s infinite;
     animation-timing-function: ease;
-    animation-delay: 4.5s;
+    animation-delay: 3s;
 }
 .delayedNav{
     color: white;
@@ -69,12 +69,9 @@
     visibility: hidden;
     animation: 
         view 3s infinite,
-        animate 8s linear,
+        /* animate 5s linear, */
         flash 5s infinite;
-    
-    animation-direction: reverse;
-    animation-timing-function: ease;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 .delayedNav:hover{
     font-size: 22px;
@@ -92,7 +89,7 @@
     white-space: nowrap;
     margin: 0 auto;
     animation: 
-        typing 4s steps(40, end),
+        typing 3s steps(40, end),
         view 2s infinite;
         /* blink-caret .75s step-end infinite */
 }
@@ -114,7 +111,7 @@
     margin: 0 auto; 
     color: whitesmoke;
     animation: 
-        typing 4s steps(40, end),
+        typing 3s steps(40, end),
         view 2s infinite;
         /* blink-caret .75s step-end infinite; */
     animation-delay: 1.3s;
