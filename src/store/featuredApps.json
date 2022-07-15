@@ -1,0 +1,57 @@
+   
+{
+    "featured": [
+        {
+            "heading":"Featured"  
+        }  
+    ],
+    "apps": [
+        {
+            "heading": "Super Mario",
+            "image": "mariogame.jpg",
+            "images": [
+                "mariofirst.jpg",
+                "mariosecond.PNG",
+                "mariothird.PNG"
+            ],
+            "description": "Rebuilt Super Mario game powered by Kaboom.js",
+            "redirect": "SuperMario",
+            "application": "https://austindober.com/SuperMario/game.html",
+            "isFeatured" : true
+        },
+        {
+            "heading": "Movie Review",
+            "image": "movieReview.jpg",
+            "description": "Movie search engine powered by TheMovieDB API",
+            "application": "https://austindober.com/movieReview/",
+            "redirect": "movieReview",
+            "isFeatured": false
+        },
+        {
+            "heading": "Blackjack",
+            "image": "blackJack.jpg",
+            "description": "Rebuild of the great poker game. Custom built and designed.",
+            "application": "https://austindober.com/blackJack/#/game",
+            "redirect": "blackJack",
+            "isFeatured": true
+        },
+        {
+            "heading": "Beertopia",
+            "image": "beerWelcome.jpg",
+            "description": "Beer search engine powered by Punk API.",
+            "application": "https://austindober.com/beertopia/#/home",
+            "redirect": "beertopia",
+            "isFeatured": true
+        },
+        {
+            "heading": "Hang Man",
+            "image": "hangmanlogo.png",
+            "description": "Rebuild of the favored chalkboard game. Custom built and designed.",
+            "application": "https://austdobe.github.io/Word-Guess-game/",
+            "redirect": "Word-Guess-game",
+            "isFeatured": false
+        }
+    ]
+}
+    
+

@@ -1,0 +1,147 @@
+[
+    {
+        "title": "Austin Dober",
+        "subtitle": ["Full Stack Software Engineer", "Frontend Software Developer", "UX/UI Developer"],
+        "github": "https://github.com/austdobe",
+        "linkedIn": "https://linkedIn.com/in/austin-dober",
+        "facebook": "https://www.facebook.com/adoberweb",
+        "skills": [
+            {
+                "Languages": [
+                    {
+                        "title": "TypeScript",
+                        "proficiencyLevel": 4
+                    },
+                    {
+                        "title": "JavaScript",
+                        "proficiencyLevel": 4
+                    },
+                    {
+                        "title": "HTML",
+                        "proficiencyLevel": 5
+                    },
+                    {
+                        "title": "CSS",
+                        "proficiencyLevel": 5
+                    }
+                ],
+                "Frameworks" : [
+                        {
+                            "title": "VueJS",
+                            "proficiencyLevel": 4
+                        },
+                        {
+                            "title": "ReactJS",
+                            "proficiencyLevel": 4
+                        },
+                        {
+                            "title": "NextJS",
+                            "proficiencyLevel": 4
+                        }
+                ],
+                "Libraries": [
+                    {
+                        "title": "Scss",
+                        "proficiencyLevel": 5
+                    },
+                    {
+                        "title": "Bootstrap CSS", 
+                        "proficiencyLevel": 5
+                    },
+                    {
+                        "title": "Tailwind CSS", 
+                        "proficiencyLevel": 4
+                    },
+                    {
+                        "title": "JQuery", 
+                        "proficiencyLevel": 5
+                    }
+                ],
+                "Deployment" : [
+                    {
+                        "title": "Vercel", 
+                        "proficiencyLevel": 5
+                    },
+                    {
+                        "title": "Github Pages",
+                        "proficiencyLevel": 5
+                    },
+                    {
+                        "title": "Heroku", 
+                        "proficiencyLevel": 4
+                    }
+
+                ],
+                "Workflow" : [
+                    {
+                        "title": "Jira",
+                        "proficiencyLevel": 5
+                    },
+                    {
+                        "title": "Github",
+                        "proficiencyLevel": 5
+                    }
+                ]
+            }
+        ],
+        "jobs": [
+            {
+                "title": "Software Engineer",
+                "company": "Internetwork Expert (INE)",
+                "roles" : [
+                    {
+                        "title": "Frontend Developer for Support Application.",
+                        "description": [
+                            "This application managed all user profile information. This provided the support staff the ability to make changes to the users profile information that was stored in the server.",
+                            "Main Task was to create endpoint calls to pull information from the server. A few tickets that were completed during my time here are: Add ability to change user account type (paid vs free), Add section to create/edit/view user notes, Add section to view billing notes, Improve search results to allow search by name or email, Created section to create new accounts",
+                            "Technology used: Vue 3, TypeScript/TSX, Scss, Google Tag Manager"
+                        ]
+                    },
+                    {
+                        "title": "Frontend Developer for Checkout Application.",
+                        "description":[
+                            "This application handled all business to client purchases and handled majority of the user account creation",
+                            "Main Tasks were to connect with our purchase software, utilizing Recurly, to transfer payment information in a secure way, capture and send marketing data, utilizing Braze, related to the users activity throughout the application, update and manage content on the app: such as adding/removing promotional plans, adding new purchaseable certifications", 
+                            "Technology used: Vue 2, TypeScript, Scss, Recurly, Braze, Google Tag Manager"
+                        ]
+                    },  
+                    {  
+                        "title": "Frontend Developer for Marketing Site.",
+                        "description": [
+                            "This application was the main marketing site. This application provided information about what INE is and basic information about the various trainings, plans and products they sell.",
+                            "This application was built by 2 different agencies, this was finally inherited by me to manage and improve the code functionality. My main job was to create the ability for marketing team to adjust the constant changing information using graphCMS", 
+                            "Technology used: Next.js, Typescript/TSX, Tailwind CSS, Braze, Google Tag Manager"
+                        ]
+                    }
+                ],
+                "description": ["INE provides subscription based services that provide educational material and certification courses for Cyber Security."]
+            },
+            {
+                "title": "Software Engineer",
+                "company": "Freelance",
+                "roles" : [
+                    {
+                        "title": "Development and Design of local food truck website.",
+                        "description": [
+                            "This application managed all marketing information for the food truck, such as: location, menu, hours of operation, contact info and event planning.",
+                            "Technology used: Wordpress, CSS"
+                        ]
+                    },
+                    {
+                        "title": "Development and Design of photo business website",
+                        "description":[
+                            "This application handled all marketing information for the food truck, such as: location, hours of operation, contact info and products.",
+                            "Technology used: Wordpress, CSS"
+                        ]
+                    }
+                ],
+                "description": ["Direct Client based work. Speaking with current and potential clients to find ways of enhancing their business and creating a stronger digital presence. "]
+            }
+        ],
+        "objective": [
+            "I am a Full Stack JavaScript engineer. I have experience developing in an agile work setting, which consisted of participating in daily standup meetings and bi-weekly sprints. I have experience with team collaboration, code reviews, and API utilization.",
+            "I built over 30 different applications ranging from Frontend to Full Stack. I regularly participate in Hackathons, which enhances my understanding of new libraries. I participated in Mintbean Hackathons receiving full marks for my projects created. My most memorable being the Super Mario application.",
+            "When my head isn't stuck in my IDE, I find myself spending time with my wife and dog, Violet. We enjoy going for long hikes through the various national parks that grace our beautiful state of North Carolina. We also enjoy traveling; we make frequent trips back home to Vermont, as well as visiting some of the better attractions of North Carolina such as: Asheville and Wilmington"
+        ]
+    }
+]
